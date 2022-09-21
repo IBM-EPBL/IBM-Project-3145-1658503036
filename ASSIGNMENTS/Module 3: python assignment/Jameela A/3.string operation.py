@@ -7,8 +7,8 @@ choose an operation from the following:
 '''))
 
 if operation == 1:
-    string1 = input('Enter your first number: ')
-    string2 = input('Enter your second number: ')
+    string1 = input('Enter your first string: ')
+    string2 = input('Enter your second string: ')
     print('concatenated string is',string1+string2)
 
 elif operation == 2:

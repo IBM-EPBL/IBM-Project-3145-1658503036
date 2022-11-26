@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-node-deployment
+spec:
+  type: ClusterIP
+  selector:
+    app: flasknode
+  ports:
+  - port: 5000
+  type: LoadBalancer
